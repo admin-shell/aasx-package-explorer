@@ -9,16 +9,20 @@ The JSON serialization is under the MIT license (see https://github.com/JamesNK/
 
 ## Commandline options
 
-| Option     | Argument   | Description                                                             |
-|------------|------------|-------------------------------------------------------------------------|
-| -maximized |            | causes program window to fill entire screen                             |
-| -noflyouts |            | uses modal dialogues insteand of transparent overlays in main window    |
-| -left      | <pixel>    | left position of the main window                                        |
-| -top       | <pixel>    | top position of the main window                                         |
-| -width     | <pixel>    | width of the main window                                                |
-| -height    | <pixel>    | height of the main window                                               |
-| -id-aas    | <template> | template string for generation of AAS identifiers.                      |
-|------------|------------|-------------------------------------------------------------------------|
-
-
-<template> = Template string may contain an arbitrary number of 'D', 'X', 'A'characters and orthers. The former will be mapped to 1..n digit of an generated unique id in decimal, hexadecimal or alphanumerical form.
+| Option         | Argument     | Description                                                             |
+|----------------|--------------|-------------------------------------------------------------------------|
+| -maximized     |              | causes program window to fill entire screen                             |
+| -noflyouts     |              | uses modal dialogues insteand of transparent overlays in main window    |
+| -left          | \<pixel\>    | left position of the main window                                        |
+| -top           | \<pixel\>    | top position of the main window                                         |
+| -width         | \<pixel\>    | width of the main window                                                |
+| -height        | \<pixel\>    | height of the main window                                               |
+| -id-aas        | \<template\> | template string for generation of AAS identifiers.                      |
+| -id-sm-type    | \<template\> | template string for generation of Submodel (type) identifiers.          |
+| -id-sm-instance| \<template\> | template string for generation of Submodel (instance) identifiers.      |
+| -id-cd         | \<template\> | template string for generation of ConceptDescription identifiers.       |
+| -eclass        | \<path\>     | path to a sub-directory, which contains eCl@ss XML files                |
+| -logo          | \<file\>     | path to a file containing a logo (height < 40pixel) to be shown         |
+| -aasxrepo      | \<file\>     | path to a file containing JSON definitions for assit-id to file maps    |
+                                                                                   
+\<template\> = Template string may contain an arbitrary number of 'D', 'X', 'A'characters and orthers. The former will be mapped to 1..n digit of an generated unique id in decimal, hexadecimal or alphanumerical form.
