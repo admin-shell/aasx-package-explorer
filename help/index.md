@@ -24,5 +24,6 @@ The JSON serialization is under the MIT license (see https://github.com/JamesNK/
 | -eclass        | \<path\>     | path to a sub-directory, which contains eCl@ss XML files                |
 | -logo          | \<file\>     | path to a file containing a logo (height < 40pixel) to be shown         |
 | -aasxrepo      | \<file\>     | path to a file containing JSON definitions for assit-id to file maps    |
+| -splash        | \<time ms\>  | If not -1, then time in ms for the splash window to stay on screen      |
                                                                                    
 \<template\> = Template string may contain an arbitrary number of 'D', 'X', 'A'characters and orthers. The former will be mapped to 1..n digit of an generated unique id in decimal, hexadecimal or alphanumerical form.
