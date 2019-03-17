@@ -30,7 +30,7 @@ The JSON serialization is under the MIT license (see https://github.com/JamesNK/
                                                                                    
 \<template\> = Template string may contain an arbitrary number of 'D', 'X', 'A'characters and orthers. The former will be mapped to 1..n digit of an generated unique id in decimal, hexadecimal or alphanumerical form.
 
-## Syntax of Qualifier-Presets.
+## Syntax of Qualifier-Presets
 
 JSON-File, e.g. named 'qualifier-presets.json'. Structure like this:
 
@@ -67,3 +67,33 @@ JSON-File, e.g. named 'qualifier-presets.json'. Structure like this:
       }
     ]
     
+## Syntax of AASX Repository
+
+This repository will be loaded, when the -aasxrepo commandline argument is set and the "File / Query AASX repository" or F12 is activated. The "filemaps"-array maps assetIds to filenames, which can be immediately loaded. The "tag" property is used for display in the screen, while the "description" property will be used for print out by "File / Print 2D code sheet for repository". Here, the "code" property will control, if a data matrix code ("DMC") or a QR-Code ("QR") will be printed.
+
+
+    {
+      "filemaps": [
+        {
+          "assetid": "HTTP://PK.FESTO.COM/3S7PLPGNH1T",
+          "description": "Festo USB Stick",
+          "tag": "F",
+          "code": "DMC",
+          "fn": "C:\\Users\\miho\\Desktop\\AasxPackageExplorer\\Sample_AAS\\Festo-USB-stick-sample-admin-shell.aasx"
+        },
+        {
+          "assetid": "http://pk.pf.com/40000039198163",
+          "description": "P+F Laser Sensor",
+          "tag": "PF",
+          "code": "QR",
+          "fn": "C:\\Users\\miho\\Desktop\\AasxPackageExplorer\\Sample_AAS\\pf_232769_40000039198163.aasx"
+        },
+        {
+          "assetid": "www.phoenixcontact.com/asset/product/2404267",
+          "description": "Phoenix Contact Control",
+          "tag": "PC",
+          "code": "QR",
+          "fn": "C:\\Users\\miho\\Desktop\\AasxPackageExplorer\\Sample_AAS\\Phoenix Contact AXC F 2152 - 11.aasx"
+        }
+      ]
+    }
