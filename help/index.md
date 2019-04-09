@@ -29,6 +29,7 @@ The JSON serialization is under the MIT license (see https://github.com/JamesNK/
 | -qualifiers    | \<file\>     | Path to JSON file defining qualifier presets.                           |
 | -contenthome   | \<path\>     | home address of the content browser on startup, on change of AASX       |
 | -splash        | \<time ms\>  | If not -1, then time in ms for the splash window to stay on screen      |
+| -options       | \<file\>     | read text file, which contains options (in same syntax)                 |
                                                                                    
 \<template\> = Template string may contain an arbitrary number of 'D', 'X', 'A'characters and orthers. The former will be mapped to 1..n digit of an generated unique id in decimal, hexadecimal or alphanumerical form.
 
