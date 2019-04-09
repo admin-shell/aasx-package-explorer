@@ -22,6 +22,8 @@ The JSON serialization is under the MIT license (see https://github.com/JamesNK/
 | -id-sm-instance| \<template\> | template string for generation of Submodel (instance) identifiers.      |
 | -id-cd         | \<template\> | template string for generation of ConceptDescription identifiers.       |
 | -eclass        | \<path\>     | path to a sub-directory, which contains eCl@ss XML files                |
+| -twopass       |              | apply second search operation to join multi-language information        |
+| -intbrowse     |              | use always internal browser                                             |
 | -logo          | \<file\>     | path to a file containing a logo (height < 40pixel) to be shown         |
 | -aasxrepo      | \<file\>     | path to a file containing JSON definitions for assit-id to file maps    |
 | -qualifiers    | \<file\>     | Path to JSON file defining qualifier presets.                           |
