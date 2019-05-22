@@ -32,6 +32,8 @@ The JSON serialization is under the MIT license (see https://github.com/JamesNK/
 | -options       | \<file\>     | read text file, which contains options (in same syntax)                 |
 | -backupdir     | \<path\>     | points to writeable folder, creating backups of the AasEnv in XML       |
 | -c0..-c3       | \<color\>    | Set brandlabel accent color (see below) in WPF format, e.g. #ff334455   |
+| -resthost      | \<host\>     | Hostname for the REST server. If not "localhost", use of admin rights might be required. |
+| -restport      | \<port\>     | Port for the REST server. Port numbers below 1023 may not work.         |
                                                                                    
 \<template\> = Template string may contain an arbitrary number of 'D', 'X', 'A'characters and orthers. The former will be mapped to 1..n digit of an generated unique id in decimal, hexadecimal or alphanumerical form.
 
