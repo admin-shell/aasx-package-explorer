@@ -2,5 +2,5 @@
 
 - for Windows 10
 - different builds provided for releases / time-stamps
-- executables provided with browser (Chromium) or without
+- executables provided with embedded browser for documentation (Chromium) or without
 - provided as (multi-part) zip
