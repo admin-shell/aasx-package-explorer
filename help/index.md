@@ -27,7 +27,7 @@ The JSON serialization is under the MIT license (see https://github.com/JamesNK/
 | -logo          | \<file\>     | path to a file containing a logo (height < 40pixel) to be shown         |
 | -aasxrepo      | \<file\>     | path to a file containing JSON definitions for assit-id to file maps    |
 | -qualifiers    | \<file\>     | Path to JSON file defining qualifier presets.                           |
-| -contenthome   | \<path\>     | URL to show in content browser on startup, on change of AASX            |
+| -contenthome   | \<URL\>      | URL to show in content browser on startup, on change of AASX            |
 | -splash        | \<time ms\>  | If not -1, then time in ms for the splash window to stay on screen      |
 | -options       | \<file\>     | read text file, which contains options (in same syntax)                 |
 | -backupdir     | \<path\>     | points to writeable folder, creating backups of the AasEnv in XML       |
