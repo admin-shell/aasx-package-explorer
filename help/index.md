@@ -34,7 +34,7 @@ The JSON serialization is under the MIT license (see https://github.com/JamesNK/
 | -c0..-c3       | \<color\>    | Set brandlabel accent color (see below) in WPF format, e.g. #ff334455   |
 | -resthost      | \<host\>     | Hostname for the REST server. If not "localhost", use of admin rights might be required. |
 | -restport      | \<port\>     | Port for the REST server. Port numbers below 1023 may not work.         |
-| -rem           | \<remark\>   | Add a remark. Intended use: disabling lines of preferences.             |
+| -rem           | \<remark\>   | Add a remark. Intended use: disabling next argument.                    |
                                                                                    
 \<template\> = Template string may contain an arbitrary number of 'D', 'X', 'A'characters and orthers. The former will be mapped to 1..n digit of an generated unique id in decimal, hexadecimal or alphanumerical form.
 
