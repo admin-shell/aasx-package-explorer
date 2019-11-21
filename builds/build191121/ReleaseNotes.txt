@@ -1,0 +1,10 @@
+Work in this version:
+
+AML Import/Export
+Update propety value with "Reload" button if connected by REST
+Simple CSV Import
+	CSV file with 3 colums typeName, idShort, value
+		column typename with Property, SubmodelElementCollection or End-SubmodelElementCollection
+	typeName=Property, idShort, value
+	typeName=SubmodelElementCollection, idShort
+	typeName=End-SubmodelElementCollection
