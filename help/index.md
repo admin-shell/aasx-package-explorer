@@ -18,7 +18,7 @@ The JSON serialization is under the MIT license (see https://github.com/JamesNK/
 | -width         | \<pixel\>    | width of the main window                                                |
 | -height        | \<pixel\>    | height of the main window                                               |
 | -id-aas        | \<template\> | template string for generation of AAS identifiers.                      |
-| -id-sm-type    | \<template\> | template string for generation of Submodel (type) identifiers.          |
+| -id-sm-template| \<template\> | template string for generation of Submodel (template) identifiers.      |
 | -id-sm-instance| \<template\> | template string for generation of Submodel (instance) identifiers.      |
 | -id-cd         | \<template\> | template string for generation of ConceptDescription identifiers.       |
 | -eclass        | \<path\>     | path to a sub-directory, which contains eCl@ss XML files                |
