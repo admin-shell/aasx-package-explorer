@@ -1,4 +1,4 @@
-<span style="color:red">This project has moved to:</span>
+**This project has moved to:**
 https://github.com/admin-shell-io/aasx-package-explorer
 
 # aasx-package-explorer
